@@ -10,13 +10,7 @@ export function Header() {
     <header className="flex items-center justify-between px-4 py-3 bg-gray-700 border-b border-gray-200">
       {/* Left side - Menu and New Chat */}
       <div className="flex items-center space-x-3">
-        <Button variant="ghost" size="sm" className="p-2">
-          <Menu className="h-5 w-5" />
-        </Button>
-        <Button variant="ghost" size="sm" className="flex items-center space-x-2 px-3">
-          <Plus className="h-4 w-4" />
-          <span className="hidden sm:inline">新しいチャット</span>
-        </Button>
+        <SidebarTrigger/>
       </div>
 
       {/* Center - Title */}

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/features /common/components/atoms/Header";
+import { Header } from "@/features/common/components/atoms/Header";
 import { SidebarProvider, SidebarTrigger } from "@/shadcn/components/ui/sidebar";
-import { AppSidebar } from "@/features /common/components/atoms/sidebar";
+import { AppSidebar } from "@/features/common/components/atoms/sidebar";
 import { SidebarInset } from "@/shadcn/components/ui/sidebar";
 
 const geistSans = Geist({
